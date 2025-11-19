@@ -1,0 +1,11 @@
+# Ignore build artifacts
+/target/
+
+# Ignore Cargo lock files (optional, but good for libraries)
+Cargo.lock
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
