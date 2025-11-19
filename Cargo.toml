@@ -3,7 +3,6 @@ members = [
     "blinky",
     "button_pressed",
     "hello_world",
-    "st7789",
 ]
 resolver = "2"
 
@@ -19,10 +18,10 @@ features = [
 opt-level = "s"
 
 [profile.release]
-codegen-units    = 1     # LLVM can perform better optimizations using a single thread
-debug            = 2
+codegen-units = 1     # LLVM can perform better optimizations using a single thread
+debug = 2
 debug-assertions = false
-incremental      = false
-lto              = 'fat'
-opt-level        = 's'
-overflow-checks  = false
+incremental = false
+lto = 'fat'
+opt-level = 's'
+overflow-checks = false

@@ -6,7 +6,6 @@
     holding buffers for the duration of a data transfer."
 )]
 
-use esp_backtrace as _;
 use esp_hal::{
     delay::Delay,
     gpio::Level,
